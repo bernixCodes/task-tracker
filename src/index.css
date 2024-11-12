@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  justify-items: center;
+  font-family: "Open Sans", sans-serif;
+  background-color: #17151b;
+  color: #d6d1e7;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.container {
+  margin: 4rem auto;
+  width: 30rem;
+  display: grid;
+  gap: 2rem;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin: 0 0 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.form-group input,
+textarea {
+  outline: none;
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  transition: 0.3s ease;
+  color: #17151b;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-group input:focus {
+  color: rgba(0, 0, 0, 0.8);
+}
+.btn {
+  outline: none;
+  background-color: #1d18af;
+  width: 100%;
+  border-radius: 4px;
+  padding: 12px 20px;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 20px;
+}

@@ -1,0 +1,16 @@
+.task {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.6em;
+  padding: 0.6em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.task-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
