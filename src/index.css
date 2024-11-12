@@ -28,7 +28,7 @@ h2 {
 }
 
 .container {
-  margin: 4rem auto;
+  margin: 4rem 1rem;
   width: 30rem;
   display: grid;
   gap: 2rem;
